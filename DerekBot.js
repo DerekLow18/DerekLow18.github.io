@@ -240,7 +240,7 @@ function interact() {
   var t2 = new Date();
   t2.setSeconds(t2.getSeconds() + 2);
   r.innerHTML = " USER &nbsp;[" + t + "]: " + q.value + "<br>" + r.innerHTML ;
-  r.innerHTML = " Derek [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
+  r.innerHTML = " DEREK [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
 
@@ -274,7 +274,7 @@ function respond(input) {
   for (var variable in replacements) {
     var replacement = replacements[variable];
     replacement = switch_viewpoint(replacement).join(' ');
-    if (replacement) response = response.replace('~' + variable, replacement);
+    if (replacement != null) response = response.replace('~' + variable, replacement);
   }
 
   return response;
