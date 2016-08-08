@@ -6,7 +6,7 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "How do you do. "
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -18,7 +18,7 @@ var rules = {
     "What do you think machines have to do with your problem?",
   ],
   "~*x name ~*y": [
-    "I am not interested in names",
+    "Your name is both beautiful and terrible. I feel happy and mortified for you.",
   ],
   "~*x sorry ~*y": [
     "Please don't apologize",
@@ -148,7 +148,7 @@ var rules = {
    "~*x are you ~*y": [
     "Why are you interested in whether I am ~y or not?",
     "Would you prefer if I weren't ~y ?",
-    "Perhaps I am ~y in your fantasies.",
+    "Perhaps I am ~y in your fantasies ;) (I'm from Oakdland Gardens, Queens, NY",
   ],
   "~*x you are ~*y": [
     "What makes you think I am ~y?",
