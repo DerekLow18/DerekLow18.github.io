@@ -10,9 +10,6 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-}
-
-body {
     background-color: #161616;
     color: #D7CEC7;
 }
