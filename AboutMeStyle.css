@@ -1,6 +1,14 @@
-.center{
-    width: 50%;
-    margin: auto;
+#nav{
+  height: 50px;
+}
+
+ul{
+  list-stype-type: none;
+}
+
+ul li{
+  float: left;
+  line-height: 50px;
 }
 
 ul{
