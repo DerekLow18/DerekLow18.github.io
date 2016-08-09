@@ -2,11 +2,11 @@
   height: 50px;
 }
 
-ul{
+#nav ul{
   list-stype-type: none;
 }
 
-ul li{
+#nav li{
   float: left;
   line-height: 50px;
 }
