@@ -12,7 +12,7 @@ html {
 
 body {
     display: table-cell;
-    text-align: middle;
+    vertical-align: middle;
     background-color: #161616;
     color: #D7CEC7;
 }
