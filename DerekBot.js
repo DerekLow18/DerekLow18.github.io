@@ -5,7 +5,7 @@
  */
 
 var rules = {
-  "~*x about yourself ~*y"[
+  "~*x about yourself ~*y":[
     "I don't want to talk about myself.",
     "If I told you about myself you wouldn't want to be my friend.",
     "I am merely a programmed replica of Derek.",
