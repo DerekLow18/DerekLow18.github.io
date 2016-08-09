@@ -84,8 +84,9 @@ var rules = {
     "Don't you believe that dream has to do with your problem?",
   ],
   "~*x my mother ~*y": [
-    "Who else in your family ~y?",
-    "Tell me more about your family",
+    "Your mother?",
+    "Does she influence you strongly?",
+    "What else comes to mind when you think of your mother?",
   ],
   "~*x my father ~*y": [
     "Your father?",
@@ -98,8 +99,8 @@ var rules = {
     "Can you explain why you are suddenly ~y?",
   ],
   "~*x I am sad ~*y": [
-    "I am sorry to hear you are depressed",
-    "I'm sure it's not pleasant to be sad",
+    "I am sorry to hear you are depressed, do you want to talk about it?",
+    "I'm sure it's not pleasant to be sad, do you want to talk about it?",
   ],
   "~*x are like ~*y": [
     "What resemblence do you see between ~x and ~y?",
