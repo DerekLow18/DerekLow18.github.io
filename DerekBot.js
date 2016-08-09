@@ -5,8 +5,17 @@
  */
 
 var rules = {
+  " ~*x I ~*y you":[
+    "I ~*y you too! We can be friends. :)",
+    ],
+  "~*x Derek ~*y":[
+    "Derek is awesome.",
+    "Derek is the best.",
+    "You have a crush on Derek, don't you? I will tell him.",
+    "I think the world would be a better place if everyone were Derek.",
+    ],
   "~*x hello ~*y": [
-    "How do you do. "
+    "How do you do. ",
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -119,7 +128,8 @@ var rules = {
     "What would it mean if you were ~y?",
   ],
   "~*x I am ~*y": [
-    "In what way are you ~y?",
+    "Are you also a potato?",
+    "Tell me more about yourself.",
     "Do you want to be ~y?",
   ],
   "~*x am I ~*y": [
