@@ -4,6 +4,10 @@
     text-align:left;
 }
 
+ul{
+    list-style-position: inside;
+}
+
 html, body {
     height: 100%;
 }
