@@ -436,9 +436,13 @@ function remove_punct(string) {
   return string.replace(/[^A-Za-z_]/g, " ");
 }
 
-document.getElementById("query").addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode == 13) {
-        document.getElementById("submit").click();
-    }
-});
+
+window.onload = function(){
+    document.getElementById("query").addEventListener("keyup", function(event) {
+	event.preventDefault();
+	if (event.keyCode == 13) {
+            document.getElementById("submit").click();
+	    console.log("GO!");
+	}
+    });
+}
