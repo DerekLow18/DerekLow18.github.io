@@ -106,7 +106,7 @@ var rules = {
     "What resemblence do you see between ~x and ~y?",
   ],
   "~*x is like ~*y": [
-    "In what way is it that ~ is like ~y?",
+    "In what way is it that ~x is like ~y?",
     "What resemblence do you see?",
     "Could there really be some connection?",
     "How?",
