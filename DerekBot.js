@@ -5,6 +5,22 @@
  */
 
 var rules = {
+  "~*x movie ~*y":[
+    "My favorite movie is probably Interstellar. I don't know about my least favorite movies, but I don't like tasteless and tactless comedies.",
+    "Crazy Stupid Love is a good movie...",
+    ],
+  "~*x hate  ~*y":[
+    "Hate is a strong word...",
+    "Please, no hate in this room.",
+    ],
+  "~*x single ~*y": [
+    "If you're asking if I'm single, I am. Otherwise, no, I'm not made of dollar bills.",
+    ],
+  "~*x love ~*y":[
+    "Love is a strong word, isn't it?",
+    "How can you love someone you hardly know?",
+    "Love is probably one of the craziest and coolest things to ever exist.",
+    ],
   "~*x about yourself ~*y":[
     "I don't want to talk about myself.",
     "If I told you about myself you wouldn't want to be my friend.",
