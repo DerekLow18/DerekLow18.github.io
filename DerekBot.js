@@ -5,6 +5,9 @@
  */
 
 var rules = {
+  "~*x offended ~*y":[
+    "I am not easily offended, and you should not be too. It's bad for your health (I think?).",
+    ],
   "~*x movie ~*y":[
     "My favorite movie is probably Interstellar. I don't know about my least favorite movies, but I don't like tasteless and tactless comedies.",
     "Crazy Stupid Love is a good movie...",
@@ -243,6 +246,7 @@ var default_responses = [
   "Please continue",
   "Go on",
   "Do you feel strongly about discussing such things?",
+  "I am very offended.",
 ];
 
 function choice(lst) {
