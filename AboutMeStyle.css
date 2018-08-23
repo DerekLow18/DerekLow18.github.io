@@ -73,3 +73,7 @@ input {
     width: 48%;
     float: left;
 }
+
+nav a{
+    display: block;
+}
