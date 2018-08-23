@@ -3,10 +3,17 @@
 Needed this page so I can work on constructing a menu bar.-->
 <html>
   <head>
-      <title>Contact Information</title>
-      <link rel="stylesheet" href="./AboutMeStyle.css" type="text/css"/>
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="./AboutMeStyle.css" type="text/css"/>
+    <script src='https://code.jquery.com/jquery-1.10.2.js'></script>
   </head>
   <body>
+    <div id='nav-placeholder'></div>
+    <script>
+    $(function(){
+      $('#nav-placeholder').load('./nav.html');
+    });
+    </script>
     <ul>
         <li>Phone: +1(917)-816-1182</li>
         <li>E-mail: dlow148@gmail.com</li>
