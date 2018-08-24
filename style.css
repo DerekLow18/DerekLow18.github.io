@@ -26,9 +26,15 @@ h1{
     border-bottom: 1px solid #AEB7A7;
 }
 
+
 h3{
     margin:0px;
     color: #CED7A7;
+}
+
+h4{
+    margin-top:0px;
+    margin-bottom: 10px;
 }
 
 #main {
@@ -81,7 +87,7 @@ nav a{
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
+    background-color: rgba(21, 22, 22, 0.514);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -91,7 +97,7 @@ nav a{
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: rgb(0, 0, 0);
 }
 
 /* The container <div> - needed to position the dropdown content */
