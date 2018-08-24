@@ -23,13 +23,12 @@ body {
 h1{
     margin-top:0px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #AEB7A7;
 }
 
 
 h3{
     margin:0px;
-    color: #CED7A7;
+    color: #D7CEC7;
 }
 
 h4{
@@ -93,6 +92,9 @@ nav a{
     font-size: 16px;
     border: none;
     cursor: pointer;
+    position: fixed;
+    left:0;
+    top:0;
 }
 
 /* Dropdown button on hover & focus */
