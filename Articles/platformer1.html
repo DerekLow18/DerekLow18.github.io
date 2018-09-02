@@ -3,6 +3,7 @@
 <html>
 <head>
   <title>Platformer: The Beginning</title>
+  <base href="dereklow18.github.io/">
   <link rel='stylesheet' href='../style.css' type='text/css'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
   <script src='https://code.jquery.com/jquery-1.10.2.js'></script>
@@ -12,12 +13,12 @@
   <div id='nav-placeholder'></div>
   <script>
   $(function(){
-    $('#nav-placeholder').load('../nav.html');
+    $('#nav-placeholder').load('./nav.html');
   });
   </script>
   <!--End Navigation Bar-->
   <div style="margin: 50px">
-  <h2>Platformer: The Beginning</h2>
+  <h2>Platformer: The QuadTree</h2>
   <p>
   Hello, everyone! This post marks the first post about a personal
   pet project of mine, a platformer game in Python! The project
@@ -28,6 +29,15 @@
   evident; while the characters would move and successfully check 
   for collisions with the surrounding objects, the collision
   detection algorithm was awful!
+  <br>
+  The original collision detection algorithm essentially placed
+  all objects in the game into a list. This list includes players,
+  monsters, and platforms. Then, the collision detection algorithm
+  checks for collisions between everything in the list. As you can
+  see, checking <i>N</i> number of items against <i>N</i> items is
+  O(n^2) runtime, and the collision detection algorithm itself
+  checks for overlaps in pixels. As you can see, it's a slow process,
+  and only gets slower with the number of objects in the game.
   </p>
   </div>
 </body>
