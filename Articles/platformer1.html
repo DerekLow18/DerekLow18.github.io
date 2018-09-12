@@ -32,11 +32,18 @@
   The original collision detection algorithm essentially placed
   all objects in the game into a list. This list includes players,
   monsters, and platforms. Then, the collision detection algorithm
-  checks for collisions between everything in the list. As you can
-  see, checking <i>N</i> number of items against <i>N</i> items is
-  O(n^2) runtime, and the collision detection algorithm itself
+  checks for collisions between everything in the list. For
+  those of you that have taken an Algorithms class or have heard of
+  runtime analysis, checking <i>N</i> number of items against <i>N</i>
+   items is O(n^2) runtime, and the collision detection algorithm itself
   checks for overlaps in pixels. As you can see, it's a slow process,
-  and only gets slower with the number of objects in the game.
+  and only gets slower with the number of objects in the game. So
+  whats the alternative?
+  <br>
+  Here we introduce the quadTree. The data structure is essentially
+  a tree, where we start with the root and branch out to four nodes
+  at every branch. After a certain criteria is met, the branches each
+  may further branch again into an additional four branches.
   </p>
   </div>
 </body>
